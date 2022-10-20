@@ -1,0 +1,20 @@
+
+
+package holamundo;
+
+
+public class HOLAMUNDO {
+
+    
+    public static void main(String[] args) {
+        System.out.println(" Hola Mundo mi nombre es Damian!! ");// comentario de hola mundo 
+        System.out.println(" practicando java ");//otro comentario de una linea 
+        
+   /* comentario 
+        de multiples lineas 
+        para usar a futuro 
+        */     
+        
+    }
+    
+}
