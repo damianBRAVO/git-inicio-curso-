@@ -1,1 +1,1 @@
-# python curso 
+# CURSO DE JAVA PRACTICA DE EJERCICIOS 
