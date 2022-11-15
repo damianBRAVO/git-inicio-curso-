@@ -1,0 +1,38 @@
+
+package matrices;
+
+import java.util.Scanner;
+
+/**
+ * @author damianBRAVO
+ */
+public class Matrices {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // Declaracion
+        int matriz[][]= new int [3][3];
+        
+        Scanner teclado;
+        teclado = new Scanner(System.in);
+        
+         // Asignacion (Manual)
+         for (int f=0; f< 3; f++){
+            for (int c=0; c<3; c++) {
+                System.out.println("Ingrese el valor de la posicion f:" +f+"c:" +c);
+                matriz[f] [c] = teclado.nextInt();
+            }
+                                
+        }
+        //Recorrido
+        for (int f=0; f< 3; f++){
+            for (int c=0; c<3; c++) {
+                System.out.println("Elvalor de la posicion f:" +f+"c:" +c);
+                System.out.pr3ntln("es de:"+ matriz[f][c];
+            }
+    }
+    
+}
+}
